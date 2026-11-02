@@ -1,0 +1,7 @@
+{
+  "name": "E-MOLO UKPBJ Nagekeo",
+  "description": "Media Obrolan & Layanan Online Bagian Pengadaan Barang dan Jasa Sekretariat Daerah Kabupaten Nagekeo",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
