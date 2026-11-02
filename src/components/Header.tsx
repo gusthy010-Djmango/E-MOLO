@@ -35,8 +35,9 @@ export function Header({ status, onOpenConsultation, onOpenHtmlModal, onOpenRegu
       {/* Top Bar Contract (1 Row, 3 Zones) */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-white/10">
         <div className="flex items-center justify-between gap-8 h-16">
-          {/* Zone 1: Single Brand Wordmark */}
-          <div className="flex items-center gap-3 shrink-0">
+          {/* Zone 1: Single Brand Wordmark with official logo */}
+          <div className="flex items-center gap-2.5 shrink-0">
+            <LogoPemkabNagekeo className="w-8 h-8 drop-shadow-sm" />
             <span className="font-bold text-lg sm:text-xl tracking-tight text-white flex items-center gap-2">
               <span className="text-amber-400 font-extrabold">E-MOLO</span>
               <span className="text-xs text-slate-300 font-normal hidden sm:inline">

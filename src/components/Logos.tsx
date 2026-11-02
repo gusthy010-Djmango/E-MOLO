@@ -7,87 +7,12 @@ import React from 'react';
 
 export function LogoPemkabNagekeo({ className = 'w-12 h-12' }: { className?: string }) {
   return (
-    <svg
-      viewBox="0 0 100 100"
-      className={className}
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      role="img"
-      aria-label="Lambang Daerah Kabupaten Nagekeo"
-    >
-      <title>Lambang Pemerintah Kabupaten Nagekeo</title>
-      {/* Outer Pentagon Crest */}
-      <polygon
-        points="50,5 93,24 82,88 50,97 18,88 7,24"
-        fill="#0F284E"
-        stroke="#F59E0B"
-        strokeWidth="3"
-      />
-      {/* Inner Shield */}
-      <polygon
-        points="50,11 87,28 78,83 50,91 22,83 13,28"
-        fill="#1E3E62"
-      />
-      {/* Mount Ebulobo Stylized Silhouette */}
-      <polygon
-        points="50,28 76,68 24,68"
-        fill="#047857"
-        opacity="0.9"
-      />
-      <polygon
-        points="50,28 58,68 42,68"
-        fill="#10B981"
-        opacity="0.8"
-      />
-      {/* Golden Star at Apex */}
-      <path
-        d="M50,14 L52,19 L57,19 L53,22 L54,27 L50,24 L46,27 L47,22 L43,19 L48,19 Z"
-        fill="#FBBF24"
-      />
-      {/* Golden Rice and Cotton Wreath */}
-      <path
-        d="M26,76 C20,60 20,44 30,34"
-        stroke="#F59E0B"
-        strokeWidth="2.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M74,76 C80,60 80,44 70,34"
-        stroke="#10B981"
-        strokeWidth="2.5"
-        strokeLinecap="round"
-      />
-      {/* Traditional Nagekeo House / Sasandu Stylized Motif */}
-      <path
-        d="M34,68 L50,52 L66,68 Z"
-        fill="#D97706"
-      />
-      {/* Blue Waves of Flores Sea */}
-      <path
-        d="M30,73 Q40,69 50,73 T70,73"
-        stroke="#38BDF8"
-        strokeWidth="2"
-        fill="none"
-      />
-      {/* Ribbon Banner */}
-      <path
-        d="M22,81 L50,77 L78,81 L74,86 L50,83 L26,86 Z"
-        fill="#F1F5F9"
-        stroke="#0F284E"
-        strokeWidth="1"
-      />
-      <text
-        x="50"
-        y="83"
-        fontSize="5"
-        fontWeight="bold"
-        fill="#0F172A"
-        textAnchor="middle"
-        letterSpacing="0.5"
-      >
-        NAGEKEO
-      </text>
-    </svg>
+    <img
+      src="/assets/aistudio/WhatsApp_Image_2026-10-05_at_19.48.52_84649d89.jpeg"
+      alt="Lambang Daerah Pemerintah Kabupaten Nagekeo"
+      className={`${className} object-contain`}
+      loading="eager"
+    />
   );
 }
 

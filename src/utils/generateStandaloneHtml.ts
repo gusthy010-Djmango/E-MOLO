@@ -47,6 +47,7 @@ export function generateStandaloneHtml(): string {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 border-b border-white/10">
         <div class="flex items-center gap-3">
+          <img src="/assets/aistudio/WhatsApp_Image_2026-10-05_at_19.48.52_84649d89.jpeg" alt="Logo Pemkab Nagekeo" class="w-8 h-8 object-contain">
           <span class="text-xl font-extrabold tracking-tight text-white flex items-center gap-2">
             <span class="text-amber-400">E-MOLO</span>
             <span class="text-xs text-slate-300 font-normal hidden sm:inline">UKPBJ Setda Kab. Nagekeo</span>
@@ -64,6 +65,16 @@ export function generateStandaloneHtml(): string {
     </div>
 
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+      <div class="flex items-center justify-center mb-5">
+        <div class="p-2 bg-white/5 border border-white/10 rounded-2xl backdrop-blur-sm flex items-center gap-2">
+          <img src="/assets/aistudio/WhatsApp_Image_2026-10-05_at_19.48.52_84649d89.jpeg" alt="Lambang Pemkab Nagekeo" class="w-12 h-12 object-contain">
+          <div class="text-left px-2 border-l border-white/10">
+            <p class="text-[10px] font-bold text-amber-400 uppercase">Pemerintah Kabupaten</p>
+            <p class="text-xs font-semibold text-white">Nagekeo, NTT</p>
+          </div>
+        </div>
+      </div>
+
       <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/80 border border-slate-700 text-xs text-slate-200 mb-4">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
         <span class="font-bold text-amber-300">E-MOLO</span>
